@@ -1,0 +1,40 @@
+              O            G            U
+               7            7            7
+             rwx           rwx          rwx
+            4+2+1=7       4+2+1=7      4+2+1=7
+
+              6            4            4
+           -rw-            r--         r--
+            -rw-          r--           r--
+             5               3             7
+           -r-x            -wx        rwx
+            -r-x          -wx         rwx
+             2                0            1
+          -w-               -            --x
+          --w-             ---         --x
+            4                 3             2
+          -r--               -wx         -w-
+           -r--             -wx          -w-
+
+
+mkdir karthik
+cd karthik
+echo hi karthik >> f2
+mkdir arjun
+cd arjun
+echo hello arjun >> f3
+yum install java -y
+yum install git -y
+yum install maven -y
+yum install tree -y
+yum install wget -y
+yum install unzip -y
+yum install epel-release -y
+yum install ansible -y
+yum install python -y
+yum install python-pip -y
+yum install python3 -y
+pip install pywinrm
+pip install boto
+echo successfully completed
+
